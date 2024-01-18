@@ -1,0 +1,15 @@
+diff = (256, 1537), silhouette score: 0.21845586215212934, elapsed time: 139.0880570411682 sec
+diff = (64, 16768), silhouette score: 0.21759149435167116, elapsed time: 140.78435015678406 sec
+diff = (2048, 12296), silhouette score: 0.2151885498930927, elapsed time: 142.96571803092957 sec
+diff = (32768, 131), silhouette score: 0.22872685661134937, elapsed time: 140.86076855659485 sec
+diff = (32, 8384), silhouette score: 0.21617730450169154, elapsed time: 141.24053192138672 sec
+diff = (4, 1048), silhouette score: 0.21959526960373063, elapsed time: 140.3798851966858 sec
+diff = (8192, 49184), silhouette score: 0.21694445880433705, elapsed time: 124.23393702507019 sec
+diff = (8, 2096), silhouette score: 0.2278718206590289, elapsed time: 130.26908159255981 sec
+diff = (512, 3074), silhouette score: 0.22985716549658056, elapsed time: 129.81334161758423 sec
+diff = (1024, 6148), silhouette score: 0.21853857746229868, elapsed time: 127.25407695770264 sec
+diff = (16, 4192), silhouette score: 0.21871370472696777, elapsed time: 122.20784759521484 sec
+diff = (1, 262), silhouette score: 0.22049917637331487, elapsed time: 133.53329610824585 sec
+diff = (2, 524), silhouette score: 0.21714486744081113, elapsed time: 140.57682085037231 sec
+diff = (16384, 32833), silhouette score: 0.23971641261022364, elapsed time: 138.3846504688263 sec
+diff = (4096, 24592), silhouette score: 0.2176648259201277, elapsed time: 144.6137237548828 sec

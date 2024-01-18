@@ -1,0 +1,2 @@
+diff = (112, 8192), silhouette score: 0.3609627534389631, elapsed time: 138.58509016036987 sec
+diff = (112, 8192), silhouette score: 0.4110167326664234, elapsed time: 135.8111755847931 sec

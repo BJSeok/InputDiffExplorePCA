@@ -1,0 +1,3 @@
+diff = (48, 8192), silhouette score: 0.241734824824266, elapsed time: 154.506245136261 sec
+diff = (80, 8192), silhouette score: 0.22303197244881925, elapsed time: 140.297447681427 sec
+diff = (10240, 16), silhouette score: 0.22204742934566057, elapsed time: 142.44885301589966 sec
