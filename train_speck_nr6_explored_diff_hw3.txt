@@ -1,0 +1,66 @@
+Script started on 2024-01-19 15:36:36+09:00 [TERM="screen-256color" TTY="/dev/pts/9" COLUMNS="301" LINES="30"]
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 train_speck_nr6_explored_diff_hw3.py
+HW: 2, speck nr6 - input_diff: (48, 8192)
+Epoch 1/200
+/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+Epoch 2/200
+Epoch 3/200
+Epoch 4/200
+Epoch 5/200
+Epoch 6/200
+Epoch 7/200
+Epoch 8/200
+Epoch 9/200
+Epoch 10/200
+Epoch 11/200
+Epoch 12/200
+Epoch 13/200
+Epoch 14/200
+Epoch 15/200
+Epoch 16/200
+Epoch 17/200
+Epoch 18/200
+Epoch 19/200
+Epoch 20/200
+Epoch 21/200
+Epoch 22/200
+Epoch 23/200
+Epoch 24/200
+Epoch 25/200
+Epoch 26/200
+Epoch 27/200
+Epoch 28/200
+Epoch 29/200
+Epoch 30/200
+^CTraceback (most recent call last):
+  File "train_speck_nr6_explored_diff_hw3.py", line 7, in <module>
+    net, h = tn.train_neural_distinguisher(num_epochs=200, num_rounds=6, depth=10, alg='speck_32_64', input_diff=input_diff, train_data_size=10**7, eval_data_size=10**6, verbose='1')
+  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/train_nets.py", line 75, in train_neural_distinguisher
+    h = net.fit(X,Y,epochs=num_epochs,batch_size=bs,validation_data=(X_eval, Y_eval), callbacks=[lr,check], verbose=verbose);
+  File "/usr/local/lib/python3.8/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py", line 1742, in fit
+    tmp_logs = self.train_function(iterator)
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 825, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 857, in _call
+    return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compiler.py", line 148, in __call__
+    return concrete_function._call_flat(
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/monomorphic_function.py", line 1349, in _call_flat
+    return self._build_call_outputs(self._inference_function(*args))
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 196, in __call__
+    outputs = self._bound_context.call_function(
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/context.py", line 1457, in call_function
+    outputs = execute.execute(
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt
+
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ exit
+exit
+
+Script done on 2024-01-19 20:56:15+09:00 [COMMAND_EXIT_CODE="130"]

@@ -1,2 +1,3 @@
-diff = (64, 0), silhouette score: 0.7209685134739818, elapsed time: 133.36769127845764 sec
-diff = (64, 0), silhouette score: 0.636602187236851, elapsed time: 136.78035497665405 sec
+diff = (32, 0), silhouette score: 0.5429871486578692, elapsed time: 190.9784128665924 sec
+diff = (0, 32768), silhouette score: 0.3213574113091926, elapsed time: 196.15376615524292 sec
+diff = (64, 0), silhouette score: 0.8003822457606464, elapsed time: 175.9392580986023 sec
