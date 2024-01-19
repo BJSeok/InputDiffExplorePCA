@@ -39,7 +39,8 @@ def explore_input_difference(alg='speck_32_64', blocksize=32, wordsize=16, nr=5,
         if sum(eigen_value - lambda_base > t0) >= num_PCs:
             pca_results = pca_helper.DimensionReduction(data_speck, n_components=3)
             start_time = time.time()
-            score = clustering_helper.calculate_silhouette(pca_results, 27, 3)
+            labels = clustering_helper.kmeans_clustering(pca_results, 27, 3)
+            score = clustering_helper.calculate_silhouette(pca_results, labels)
             end_time = time.time()
             elapsed_time = end_time - start_time
             if savepath is not None:
