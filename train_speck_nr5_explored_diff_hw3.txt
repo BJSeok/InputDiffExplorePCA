@@ -1,48 +1,0 @@
-Script started on 2024-01-19 16:33:56+09:00 [TERM="screen-256color" TTY="/dev/pts/20" COLUMNS="82" LINES="30"]
-[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 train_speck_nr5_explored_diff_hw3.py
-HW: 2, speck nr5 - input_diff: (48, 8192)
-Epoch 1/200
-/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
-  saving_api.save_model(
-Epoch 2/200
-Epoch 3/200
-Epoch 4/200
-Epoch 5/200
-Epoch 6/200
-Epoch 7/200
-Epoch 8/200
-Epoch 9/200
-Traceback (most recent call last):
-  File "train_speck_nr5_explored_diff_hw3.py", line 7, in <module>
-    net, h = tn.train_neural_distinguisher(num_epochs=200, num_rounds=6, depth=10, alg='speck_32_64', input_diff=input_diff, train_data_size=10**7, eval_data_size=10**6, verbose='1')
-  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/train_nets.py", line 75, in train_neural_distinguisher
-    h = net.fit(X,Y,epochs=num_epochs,batch_size=bs,validation_data=(X_eval, Y_eval), callbacks=[lr,check], verbose=verbose);
-  File "/usr/local/lib/python3.8/dist-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
-    raise e.with_traceback(filtered_tb) from None
-  File "/home/seok/.local/lib/python3.8/site-packages/h5py/_hl/files.py", line 562, in __init__
-    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
-  File "/home/seok/.local/lib/python3.8/site-packages/h5py/_hl/files.py", line 241, in make_fid
-    fid = h5f.create(name, h5f.ACC_TRUNC, fapl=fapl, fcpl=fcpl)
-  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
-  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
-  File "h5py/h5f.pyx", line 122, in h5py.h5f.create
-BlockingIOError: [Errno 11] Unable to synchronously create file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')
-[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ clear
-[H[J[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ clearpython3 train_speck_nr5_explored_diff_hw3.py
-HW: 2, speck nr5 - input_diff: (48, 8192)
-Epoch 1/200
-/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
-  saving_api.save_model(
-Epoch 2/200
-Epoch 3/200
-Epoch 4/200
-Epoch 5/200
-Epoch 6/200
-^CTraceback (most recent call last):
-  File "train_speck_nr5_explored_diff_hw3.py", line 7, in <module>
-    net, h = tn.train_neural_distinguisher(num_epochs=200, num_rounds=6, depth=10, alg='speck_32_64', input_diff=input_diff, train_data_size=10**7, eval_data_size=10**6, verbose='1')
-  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/train_nets.py", line 75, in train_neural_distinguisher
-    h = net.fit(X,Y,epochs=num_epochs,batch_size=bs,validation_data=(X_eval, Y_eval), callbacks=[lr,check], verbose=verbose);
-  File "/usr/local/lib/python3.8/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
-    return fn(*args, **kwargs)
-  File "/usr/local/lib/python3.8/dist-packages/keras/s

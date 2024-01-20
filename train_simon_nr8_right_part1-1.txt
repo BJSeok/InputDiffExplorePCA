@@ -1,0 +1,491 @@
+Script started on 2024-01-20 00:57:53+09:00 [TERM="screen-256color" TTY="/dev/pts/7" COLUMNS="130" LINES="27"]
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 train_simon_nr8_right_part1.py
+simon nr8 - input_diff: (0, 1)
+Epoch 1/200
+/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+Epoch 2/200
+Epoch 3/200
+Epoch 4/200
+Epoch 5/200
+Epoch 6/200
+Epoch 7/200
+Epoch 8/200
+Epoch 9/200
+Epoch 10/200
+Epoch 11/200
+Epoch 12/200
+Epoch 13/200
+Epoch 14/200
+Epoch 15/200
+Epoch 16/200
+Epoch 17/200
+Epoch 18/200
+Epoch 19/200
+Epoch 20/200
+Epoch 21/200
+Epoch 22/200
+Epoch 23/200
+Epoch 24/200
+Epoch 25/200
+Epoch 26/200
+Epoch 27/200
+Epoch 28/200
+Epoch 29/200
+Epoch 30/200
+Epoch 31/200
+Epoch 32/200
+Epoch 33/200
+Epoch 34/200
+Epoch 35/200
+Epoch 36/200
+Epoch 37/200
+Epoch 38/200
+Epoch 39/200
+Epoch 40/200
+Epoch 41/200
+Epoch 42/200
+Epoch 43/200
+Epoch 44/200
+Epoch 45/200
+Epoch 46/200
+Epoch 47/200
+Epoch 48/200
+Epoch 49/200
+Epoch 50/200
+Epoch 51/200
+Epoch 52/200
+Epoch 53/200
+Epoch 54/200
+Epoch 55/200
+Epoch 56/200
+Epoch 57/200
+Epoch 58/200
+Epoch 59/200
+Epoch 60/200
+Epoch 61/200
+Epoch 62/200
+Epoch 63/200
+Epoch 64/200
+Epoch 65/200
+Epoch 66/200
+Epoch 67/200
+Epoch 68/200
+Epoch 69/200
+Epoch 70/200
+Epoch 71/200
+Epoch 72/200
+Epoch 73/200
+Epoch 74/200
+Epoch 75/200
+Epoch 76/200
+Epoch 77/200
+Epoch 78/200
+Epoch 79/200
+Epoch 80/200
+Epoch 81/200
+Epoch 82/200
+Epoch 83/200
+Epoch 84/200
+Epoch 85/200
+Epoch 86/200
+Epoch 87/200
+Epoch 88/200
+Epoch 89/200
+Epoch 90/200
+Epoch 91/200
+Epoch 92/200
+Epoch 93/200
+Epoch 94/200
+Epoch 95/200
+Epoch 96/200
+Epoch 97/200
+Epoch 98/200
+Epoch 99/200
+Epoch 100/200
+Epoch 101/200
+Epoch 102/200
+Epoch 103/200
+Epoch 104/200
+Epoch 105/200
+Epoch 106/200
+Epoch 107/200
+Epoch 108/200
+Epoch 109/200
+Epoch 110/200
+Epoch 111/200
+Epoch 112/200
+Epoch 113/200
+Epoch 114/200
+Epoch 115/200
+Epoch 116/200
+Epoch 117/200
+Epoch 118/200
+Epoch 119/200
+Epoch 120/200
+Epoch 121/200
+Epoch 122/200
+Epoch 123/200
+Epoch 124/200
+Epoch 125/200
+Epoch 126/200
+Epoch 127/200
+Epoch 128/200
+Epoch 129/200
+Epoch 130/200
+Epoch 131/200
+Epoch 132/200
+Epoch 133/200
+Epoch 134/200
+Epoch 135/200
+Epoch 136/200
+Epoch 137/200
+Epoch 138/200
+Epoch 139/200
+Epoch 140/200
+Epoch 141/200
+Epoch 142/200
+Epoch 143/200
+Epoch 144/200
+Epoch 145/200
+Epoch 146/200
+Epoch 147/200
+Epoch 148/200
+Epoch 149/200
+Epoch 150/200
+Epoch 151/200
+Epoch 152/200
+Epoch 153/200
+Epoch 154/200
+Epoch 155/200
+Epoch 156/200
+Epoch 157/200
+Epoch 158/200
+Epoch 159/200
+Epoch 160/200
+Epoch 161/200
+Epoch 162/200
+Epoch 163/200
+Epoch 164/200
+Epoch 165/200
+Epoch 166/200
+Epoch 167/200
+Epoch 168/200
+Epoch 169/200
+Epoch 170/200
+Epoch 171/200
+Epoch 172/200
+Epoch 173/200
+Epoch 174/200
+Epoch 175/200
+Epoch 176/200
+Epoch 177/200
+Epoch 178/200
+Epoch 179/200
+Epoch 180/200
+Epoch 181/200
+Epoch 182/200
+Epoch 183/200
+Epoch 184/200
+Epoch 185/200
+Epoch 186/200
+Epoch 187/200
+Epoch 188/200
+Epoch 189/200
+Epoch 190/200
+Epoch 191/200
+Epoch 192/200
+Epoch 193/200
+Epoch 194/200
+Epoch 195/200
+Epoch 196/200
+Epoch 197/200
+Epoch 198/200
+Epoch 199/200
+Epoch 200/200
+Best validation accuracy:  0.7474179863929749
+simon nr8 - input_diff: (0, 2)
+Epoch 1/200
+Epoch 2/200
+Epoch 3/200
+Epoch 4/200
+Epoch 5/200
+Epoch 6/200
+Epoch 7/200
+Epoch 8/200
+Epoch 9/200
+Epoch 10/200
+Epoch 11/200
+Epoch 12/200
+Epoch 13/200
+Epoch 14/200
+Epoch 15/200
+Epoch 16/200
+Epoch 17/200
+Epoch 18/200
+Epoch 19/200
+Epoch 20/200
+Epoch 21/200
+Epoch 22/200
+Epoch 23/200
+Epoch 24/200
+Epoch 25/200
+Epoch 26/200
+Epoch 27/200
+Epoch 28/200
+Epoch 29/200
+Epoch 30/200
+Epoch 31/200
+Epoch 32/200
+Epoch 33/200
+Epoch 34/200
+Epoch 35/200
+Epoch 36/200
+Epoch 37/200
+Epoch 38/200
+Epoch 39/200
+Epoch 40/200
+Epoch 41/200
+Epoch 42/200
+Epoch 43/200
+Epoch 44/200
+Epoch 45/200
+Epoch 46/200
+Epoch 47/200
+Epoch 48/200
+Epoch 49/200
+Epoch 50/200
+Epoch 51/200
+Epoch 52/200
+Epoch 53/200
+Epoch 54/200
+Epoch 55/200
+Epoch 56/200
+Epoch 57/200
+Epoch 58/200
+Epoch 59/200
+Epoch 60/200
+Epoch 61/200
+Epoch 62/200
+Epoch 63/200
+Epoch 64/200
+Epoch 65/200
+Epoch 66/200
+Epoch 67/200
+Epoch 68/200
+Epoch 69/200
+Epoch 70/200
+Epoch 71/200
+Epoch 72/200
+Epoch 73/200
+Epoch 74/200
+Epoch 75/200
+Epoch 76/200
+Epoch 77/200
+Epoch 78/200
+Epoch 79/200
+Epoch 80/200
+Epoch 81/200
+Epoch 82/200
+Epoch 83/200
+Epoch 84/200
+Epoch 85/200
+Epoch 86/200
+Epoch 87/200
+Epoch 88/200
+Epoch 89/200
+Epoch 90/200
+Epoch 91/200
+Epoch 92/200
+Epoch 93/200
+Epoch 94/200
+Epoch 95/200
+Epoch 96/200
+Epoch 97/200
+Epoch 98/200
+Epoch 99/200
+Epoch 100/200
+Epoch 101/200
+Epoch 102/200
+Epoch 103/200
+Epoch 104/200
+Epoch 105/200
+Epoch 106/200
+Epoch 107/200
+Epoch 108/200
+Epoch 109/200
+Epoch 110/200
+Epoch 111/200
+Epoch 112/200
+Epoch 113/200
+Epoch 114/200
+Epoch 115/200
+Epoch 116/200
+Epoch 117/200
+Epoch 118/200
+Epoch 119/200
+Epoch 120/200
+Epoch 121/200
+Epoch 122/200
+Epoch 123/200
+Epoch 124/200
+Epoch 125/200
+Epoch 126/200
+Epoch 127/200
+Epoch 128/200
+Epoch 129/200
+Epoch 130/200
+Epoch 131/200
+Epoch 132/200
+Epoch 133/200
+Epoch 134/200
+Epoch 135/200
+Epoch 136/200
+Epoch 137/200
+Epoch 138/200
+Epoch 139/200
+Epoch 140/200
+Epoch 141/200
+Epoch 142/200
+Epoch 143/200
+Epoch 144/200
+Epoch 145/200
+Epoch 146/200
+Epoch 147/200
+Epoch 148/200
+Epoch 149/200
+Epoch 150/200
+Epoch 151/200
+Epoch 152/200
+Epoch 153/200
+Epoch 154/200
+Epoch 155/200
+Epoch 156/200
+Epoch 157/200
+Epoch 158/200
+Epoch 159/200
+Epoch 160/200
+Epoch 161/200
+Epoch 162/200
+Epoch 163/200
+Epoch 164/200
+Epoch 165/200
+Epoch 166/200
+Epoch 167/200
+Epoch 168/200
+Epoch 169/200
+Epoch 170/200
+Epoch 171/200
+Epoch 172/200
+Epoch 173/200
+Epoch 174/200
+Epoch 175/200
+Epoch 176/200
+Epoch 177/200
+Epoch 178/200
+Epoch 179/200
+Epoch 180/200
+Epoch 181/200
+Epoch 182/200
+Epoch 183/200
+Epoch 184/200
+Epoch 185/200
+Epoch 186/200
+Epoch 187/200
+Epoch 188/200
+Epoch 189/200
+Epoch 190/200
+Epoch 191/200
+Epoch 192/200
+Epoch 193/200
+Epoch 194/200
+Epoch 195/200
+Epoch 196/200
+Epoch 197/200
+Epoch 198/200
+Epoch 199/200
+Epoch 200/200
+Best validation accuracy:  0.7350410223007202
+simon nr8 - input_diff: (0, 4)
+Epoch 1/200
+Epoch 2/200
+Epoch 3/200
+Epoch 4/200
+Epoch 5/200
+Epoch 6/200
+Epoch 7/200
+Epoch 8/200
+Epoch 9/200
+Epoch 10/200
+Epoch 11/200
+Epoch 12/200
+Epoch 13/200
+Epoch 14/200
+Epoch 15/200
+Epoch 16/200
+Epoch 17/200
+Epoch 18/200
+Epoch 19/200
+Epoch 20/200
+Epoch 21/200
+Epoch 22/200
+Epoch 23/200
+Epoch 24/200
+Epoch 25/200
+Epoch 26/200
+Epoch 27/200
+Epoch 28/200
+Epoch 29/200
+Epoch 30/200
+Traceback (most recent call last):
+  File "train_simon_nr8_right_part1.py", line 8, in <module>
+    net, h = tn.train_neural_distinguisher(num_epochs=200, num_rounds=8, depth=10, alg='simon_32_64', input_diff=input_diff, train_data_size=10**7, eval_data_size=10**6, verbose='0')
+  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/train_nets.py", line 75, in train_neural_distinguisher
+    h = net.fit(X,Y,epochs=num_epochs,batch_size=bs,validation_data=(X_eval, Y_eval), callbacks=[lr,check], verbose=verbose);
+  File "/usr/local/lib/python3.8/dist-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/seok/.local/lib/python3.8/site-packages/h5py/_hl/files.py", line 562, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "/home/seok/.local/lib/python3.8/site-packages/h5py/_hl/files.py", line 241, in make_fid
+    fid = h5f.create(name, h5f.ACC_TRUNC, fapl=fapl, fcpl=fcpl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 122, in h5py.h5f.create
+BlockingIOError: [Errno 11] Unable to synchronously create file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 train_simon_nr8_right_part1.py
+simon nr8 - input_diff: (0, 4)
+Epoch 1/200
+/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+Epoch 2/200
+^CTraceback (most recent call last):
+  File "train_simon_nr8_right_part1.py", line 12, in <module>
+    net, h = tn.train_neural_distinguisher(num_epochs=200, num_rounds=8, depth=10, alg='simon_32_64', input_diff=input_diff, train_data_size=10**7, eval_data_size=10**6, verbose='0')
+  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/train_nets.py", line 75, in train_neural_distinguisher
+    h = net.fit(X,Y,epochs=num_epochs,batch_size=bs,validation_data=(X_eval, Y_eval), callbacks=[lr,check], verbose=verbose);
+  File "/usr/local/lib/python3.8/dist-packages/keras/src/utils/traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/keras/src/engine/training.py", line 1742, in fit
+    tmp_logs = self.train_function(iterator)
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 825, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/polymorphic_function.py", line 857, in _call
+    return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/tracing_compiler.py", line 148, in __call__
+    return concrete_function._call_flat(
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/monomorphic_function.py", line 1349, in _call_flat
+    return self._build_call_outputs(self._inference_function(*args))
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/polymorphic_function/atomic_function.py", line 196, in __call__
+    outputs = self._bound_context.call_function(
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/context.py", line 1457, in call_function
+    outputs = execute.execute(
+  File "/home/seok/.local/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt
+
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ exit
+exit
+
+Script done on 2024-01-20 11:20:12+09:00 [COMMAND_EXIT_CODE="130"]

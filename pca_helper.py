@@ -10,7 +10,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-
+import numpy as np
+from scipy.stats import gaussian_kde
 
 def EigenValueDecomposition(dataset, alg=None, title=None, visualize_ratio='no'):
     scaler = StandardScaler()
@@ -39,6 +40,20 @@ def DimensionReduction(dataset, n_components = 3, alg=None, title=None):
     pca_results = pca.fit_transform(dataset)
     
     return pca_results
+
+def Visualize2D(pca_results_2D, title=None):
+    fig, ax = plt.subplots()
+    xf = pca_results_2D[:,0]
+    yf = pca_results_2D[:,1]
+
+    xy = np.vstack([xf, yf])
+    z = gaussian_kde(xy)(xy)
+
+    plt.scatter(xf, yf, c=z, s=50, edgecolor='')
+    plt.colorbar()
+    plt.show()
+    plt.show()
+    plt.close()
 
 def Visualize3D(pca_results_3D, title=None):
     fig = plt.figure()

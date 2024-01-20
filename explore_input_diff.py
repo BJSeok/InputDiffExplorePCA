@@ -23,7 +23,7 @@ def generate_numbers_with_hamming_weight(bit_size = 32, hamming_weight = 1, numb
 def calculate_combinations(m, n):
     return math.factorial(m) // (math.factorial(n) * math.factorial(m - n))
 
-def explore_input_difference(alg='speck_32_64', blocksize=32, wordsize=16, nr=5, datasize=100000, hamming_weight=1, t0=0.003, num_PCs=3, savepath=None):
+def explore_input_difference(alg='speck_32_64', blocksize=32, wordsize=16, nr=5, datasize=100000, hamming_weight=1, t0=0.003, t1=3, n_components=3, savepath=None):
     numbers = []
     lambda_base = 1/(2*blocksize)
     dataset_generator = dataset.DatasetGenerator(alg=alg)
@@ -36,10 +36,10 @@ def explore_input_difference(alg='speck_32_64', blocksize=32, wordsize=16, nr=5,
         
         data_speck = dataset_generator.gen_real_dataset(diff, nr, datasize)
         eigen_value, eigen_vector = pca_helper.EigenValueDecomposition(dataset=data_speck)
-        if sum(eigen_value - lambda_base > t0) >= num_PCs:
-            pca_results = pca_helper.DimensionReduction(data_speck, n_components=3)
+        if sum(eigen_value - lambda_base > t0) >= t1:
+            pca_results = pca_helper.DimensionReduction(data_speck, n_components=n_components)
             start_time = time.time()
-            labels = clustering_helper.kmeans_clustering(pca_results, 27, 3)
+            labels = clustering_helper.kmeans_clustering(pca_results, 3**n_components, 3)
             score = clustering_helper.calculate_silhouette(pca_results, labels)
             end_time = time.time()
             elapsed_time = end_time - start_time

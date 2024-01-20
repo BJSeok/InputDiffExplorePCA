@@ -25,6 +25,16 @@ def calculate_silhouette(data, labels):
     
     return np.array(silhouette_avg)
 
+def visualize_clusters_2D(data, labels, title=None):
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.scatter(data[:,0], data[:,1], c=labels.astype(np.float64), edgecolor='k')
+
+    if title is not None:
+        plt.title(title)
+    plt.show()
+    plt.close()
+    
 def visualize_clusters(data, labels, title=None):
     
     fig = plt.figure()

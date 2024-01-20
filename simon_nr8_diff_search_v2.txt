@@ -1,0 +1,69 @@
+Script started on 2024-01-19 23:20:33+09:00 [TERM="screen-256color" TTY="/dev/pts/5" COLUMNS="135" LINES="23"]
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 explore_simon_nr8_diff.py 
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(explore_simon_nr8_diff.py:4064292): Gdk-[1;35mCRITICAL[0m **: [34m23:20:48.873[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+Explore SIMON-32/64 nr8 input difference...
+- Hamming weight: 1
+Traceback (most recent call last):
+  File "explore_simon_nr8_diff.py", line 8, in <module>
+    explore_input_diff.explore_input_difference(alg='simon_32_64', blocksize=32, wordsize=16, nr=8, datasize=100000, hamming_weight=1, t0=0.002, num_PCs=2, n_components=2, savepath="./explore_results/simon_32_64_nr8_hw_1_ver2.txt")
+TypeError: explore_input_difference() got an unexpected keyword argument 'num_PCs'
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 explore_simon_nr8_diff.py 
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(explore_simon_nr8_diff.py:4095180): Gdk-[1;35mCRITICAL[0m **: [34m23:21:18.671[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+Explore SIMON-32/64 nr8 input difference...
+- Hamming weight: 1
+  * Elapsed time: 2296.4143166542053 sec
+- Hamming weight: 2
+  * Elapsed time: 2666.006660461426 sec
+- Hamming weight: 3
+  * Elapsed time: 8839.314841270447 sec
+- Hamming weight: 4
+  * Elapsed time: 25217.25389289856 sec
+- Hamming weight: 5
+^CTraceback (most recent call last):
+  File "explore_simon_nr8_diff.py", line 32, in <module>
+    explore_input_diff.explore_input_difference(alg='simon_32_64', blocksize=32, wordsize=16, nr=8, datasize=100000, hamming_weight=5, t0=0.002, t1=2, n_components=2, savepath="./explore_results/simon_32_64_nr8_hw_5_ver2.txt")
+  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/explore_input_diff.py", line 38, in explore_input_difference
+    eigen_value, eigen_vector = pca_helper.EigenValueDecomposition(dataset=data_speck)
+  File "/home/seok/Workspace/NeuralCryptanalysis/seok_pca_search/pca_helper.py", line 20, in EigenValueDecomposition
+    pipeline.fit(dataset)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 423, in fit
+    Xt = self._fit(X, y, **fit_params_steps)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 377, in _fit
+    X, fitted_transformer = fit_transform_one_cached(
+  File "/home/seok/.local/lib/python3.8/site-packages/joblib/memory.py", line 353, in __call__
+    return self.func(*args, **kwargs)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/pipeline.py", line 957, in _fit_transform_one
+    res = transformer.fit_transform(X, y, **fit_params)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/utils/_set_output.py", line 157, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/base.py", line 916, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/preprocessing/_data.py", line 839, in fit
+    return self.partial_fit(X, y, sample_weight)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/base.py", line 1152, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/preprocessing/_data.py", line 960, in partial_fit
+    self.mean_, self.var_, self.n_samples_seen_ = _incremental_mean_and_var(
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/utils/extmath.py", line 1068, in _incremental_mean_and_var
+    correction = _safe_accumulator_op(sum_op, temp, axis=0)
+  File "/home/seok/.local/lib/python3.8/site-packages/sklearn/utils/extmath.py", line 966, in _safe_accumulator_op
+    result = op(x, *args, **kwargs)
+  File "<__array_function__ internals>", line 200, in sum
+  File "/home/seok/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 2324, in sum
+    return _wrapreduction(a, np.add, 'sum', axis, dtype, out, keepdims=keepdims,
+  File "/home/seok/.local/lib/python3.8/site-packages/numpy/core/fromnumeric.py", line 86, in _wrapreduction
+    return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+KeyboardInterrupt
+
+[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ exit
+exit
+
+Script done on 2024-01-20 11:05:43+09:00 [COMMAND_EXIT_CODE="130"]
