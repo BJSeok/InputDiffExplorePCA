@@ -1,1 +1,0 @@
-diff = (16, 8192), silhouette score: 0.25483084889918695, elapsed time: 140.37741327285767 sec

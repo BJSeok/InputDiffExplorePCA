@@ -1,29 +1,0 @@
-Script started on 2024-01-19 15:31:03+09:00 [TERM="screen-256color" TTY="/dev/pts/3" COLUMNS="141" LINES="30"]
-[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 e p[K[Kxplore_speck_nr_nr5_di[K[K[K[K[K[K[K5_diff.py 
-Unable to init server: Could not connect: Connection refused
-Unable to init server: Could not connect: Connection refused
-
-(explore_speck_nr5_diff.py:9476): Gdk-[1;35mCRITICAL[0m **: [34m15:31:26.964[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
-Explore SPECK-32/64 nr5 input difference...
-- Hamming weight: 1
-  * Elapsed time: 550.5310032367706 sec
-[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 explore_speck_nr5_diff.py 
-Unable to init server: Could not connect: Connection refused
-Unable to init server: Could not connect: Connection refused
-
-(explore_speck_nr5_diff.py:34310): Gdk-[1;35mCRITICAL[0m **: [34m16:06:35.853[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
-Explore SPECK-32/64 nr5 input difference...
-- Hamming weight: 1
-  * Elapsed time: 600.2568027973175 sec
-[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ python3 explore_speck_nr5_diff.py 
-Unable to init server: Could not connect: Connection refused
-Unable to init server: Could not connect: Connection refused
-
-(explore_speck_nr5_diff.py:59304): Gdk-[1;35mCRITICAL[0m **: [34m16:35:56.273[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
-Explore SPECK-32/64 nr5 input difference...
-- Hamming weight: 2
-  * Elapsed time: 3160.529016017914 sec
-[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ [K[01;32mseok@U20[00m:[01;34m~/Workspace/NeuralCryptanalysis/seok_pca_search[00m$ exit
-exit
-
-Script done on 2024-01-19 20:53:58+09:00 [COMMAND_EXIT_CODE="0"]

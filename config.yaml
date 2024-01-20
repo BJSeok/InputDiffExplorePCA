@@ -1,8 +1,0 @@
-dataset_parameter:
-  algorithm:
-    - speck
-    - simon
-    - simeck
-  block_size: 32
-  key_size: 64
-  num_rounds: 5
